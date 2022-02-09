@@ -1,0 +1,41 @@
+_locale_t	c:\MinGW\include\locale.h	/^typedef struct __mingw_opaque_locale_t  *_locale_t; $/;"	typedef	line:51	typeref:struct:__mingw_opaque_locale_t
+locale_t	c:\MinGW\include\locale.h	/^typedef struct __mingw_opaque_locale_t  * locale_t; $/;"	typedef	line:52	typeref:struct:__mingw_opaque_locale_t
+__have_typedef_locale_t	c:\MinGW\include\locale.h	/^#define __have_typedef_locale_t  1$/;"	macro	line:60
+_LOCALE_H	c:\MinGW\include\locale.h	/^#define	_LOCALE_H$/;"	macro	line:73
+LC_ALL	c:\MinGW\include\locale.h	/^#define	LC_ALL		0$/;"	macro	line:80
+LC_COLLATE	c:\MinGW\include\locale.h	/^#define LC_COLLATE	1$/;"	macro	line:81
+LC_CTYPE	c:\MinGW\include\locale.h	/^#define LC_CTYPE	2$/;"	macro	line:82
+LC_MONETARY	c:\MinGW\include\locale.h	/^#define	LC_MONETARY	3$/;"	macro	line:83
+LC_NUMERIC	c:\MinGW\include\locale.h	/^#define	LC_NUMERIC	4$/;"	macro	line:84
+LC_TIME	c:\MinGW\include\locale.h	/^#define	LC_TIME		5$/;"	macro	line:85
+LC_MIN	c:\MinGW\include\locale.h	/^#define	LC_MIN		LC_ALL$/;"	macro	line:86
+LC_MAX	c:\MinGW\include\locale.h	/^#define	LC_MAX		LC_TIME$/;"	macro	line:87
+__need_NULL	c:\MinGW\include\locale.h	/^#define __need_NULL$/;"	macro	line:95
+__need_wchar_t	c:\MinGW\include\locale.h	/^#define __need_wchar_t$/;"	macro	line:96
+lconv	c:\MinGW\include\locale.h	/^struct lconv$/;"	struct	line:99
+decimal_point	c:\MinGW\include\locale.h	/^  char	*decimal_point;$/;"	member	line:110	struct:lconv	access:public
+thousands_sep	c:\MinGW\include\locale.h	/^  char	*thousands_sep;$/;"	member	line:111	struct:lconv	access:public
+grouping	c:\MinGW\include\locale.h	/^  char	*grouping;$/;"	member	line:112	struct:lconv	access:public
+int_curr_symbol	c:\MinGW\include\locale.h	/^  char	*int_curr_symbol;$/;"	member	line:113	struct:lconv	access:public
+currency_symbol	c:\MinGW\include\locale.h	/^  char	*currency_symbol;$/;"	member	line:114	struct:lconv	access:public
+mon_decimal_point	c:\MinGW\include\locale.h	/^  char	*mon_decimal_point;$/;"	member	line:115	struct:lconv	access:public
+mon_thousands_sep	c:\MinGW\include\locale.h	/^  char	*mon_thousands_sep;$/;"	member	line:116	struct:lconv	access:public
+mon_grouping	c:\MinGW\include\locale.h	/^  char	*mon_grouping;$/;"	member	line:117	struct:lconv	access:public
+positive_sign	c:\MinGW\include\locale.h	/^  char	*positive_sign;$/;"	member	line:118	struct:lconv	access:public
+negative_sign	c:\MinGW\include\locale.h	/^  char	*negative_sign;$/;"	member	line:119	struct:lconv	access:public
+int_frac_digits	c:\MinGW\include\locale.h	/^  char	 int_frac_digits;$/;"	member	line:120	struct:lconv	access:public
+frac_digits	c:\MinGW\include\locale.h	/^  char	 frac_digits;$/;"	member	line:121	struct:lconv	access:public
+p_cs_precedes	c:\MinGW\include\locale.h	/^  char	 p_cs_precedes;$/;"	member	line:122	struct:lconv	access:public
+p_sep_by_space	c:\MinGW\include\locale.h	/^  char	 p_sep_by_space;$/;"	member	line:123	struct:lconv	access:public
+n_cs_precedes	c:\MinGW\include\locale.h	/^  char	 n_cs_precedes;$/;"	member	line:124	struct:lconv	access:public
+n_sep_by_space	c:\MinGW\include\locale.h	/^  char	 n_sep_by_space;$/;"	member	line:125	struct:lconv	access:public
+p_sign_posn	c:\MinGW\include\locale.h	/^  char	 p_sign_posn;$/;"	member	line:126	struct:lconv	access:public
+n_sign_posn	c:\MinGW\include\locale.h	/^  char	 n_sign_posn;$/;"	member	line:127	struct:lconv	access:public
+setlocale	c:\MinGW\include\locale.h	/^_CRTIMP __cdecl __MINGW_NOTHROW  char *setlocale (int, const char *);$/;"	prototype	line:142	signature:(int, const char *)	returns:_BEGIN_C_DECLS _CRTIMP __cdecl __MINGW_NOTHROW char 
+localeconv	c:\MinGW\include\locale.h	/^_CRTIMP __cdecl __MINGW_NOTHROW  struct lconv *localeconv (void);$/;"	prototype	line:143	signature:(void)	returns:_CRTIMP __cdecl __MINGW_NOTHROW struct lconv 
+_wsetlocale	c:\MinGW\include\locale.h	/^_CRTIMP __cdecl __MINGW_NOTHROW  wchar_t *_wsetlocale (int, const wchar_t *);$/;"	prototype	line:151	signature:(int, const wchar_t *)	returns:_CRTIMP __cdecl __MINGW_NOTHROW wchar_t 
+_create_locale	c:\MinGW\include\locale.h	/^_CRTIMP __cdecl __MINGW_NOTHROW  _locale_t _create_locale (int, const char *);$/;"	prototype	line:166	signature:(int, const char *)	returns:_CRTIMP __cdecl __MINGW_NOTHROW _locale_t 
+_get_current_locale	c:\MinGW\include\locale.h	/^_CRTIMP __cdecl __MINGW_NOTHROW  _locale_t _get_current_locale (void);$/;"	prototype	line:167	signature:(void)	returns:_CRTIMP __cdecl __MINGW_NOTHROW _locale_t 
+_free_locale	c:\MinGW\include\locale.h	/^_CRTIMP __cdecl __MINGW_NOTHROW   void     _free_locale (locale_t);$/;"	prototype	line:168	signature:(locale_t)	returns:_CRTIMP __cdecl __MINGW_NOTHROW void 
+_wcreate_locale	c:\MinGW\include\locale.h	/^_CRTIMP __cdecl __MINGW_NOTHROW  _locale_t _wcreate_locale (int, const wchar_t *);$/;"	prototype	line:174	signature:(int, const wchar_t *)	returns:_CRTIMP __cdecl __MINGW_NOTHROW _locale_t 
+__need_locale_t	c:\MinGW\include\locale.h	/^#undef	__need_locale_t$/;"	macro	line:187
