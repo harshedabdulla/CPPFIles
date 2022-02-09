@@ -2,19 +2,27 @@
 <CodeLite_Workspace Name="Section 4" Database="" Version="10000">
   <Project Name="Project1" Path="Project1/Project1.project" Active="No"/>
   <Project Name="Project2" Path="Project2/Project2.project" Active="No"/>
-  <Project Name="FirstProject" Path="FirstProject/FirstProject.project" Active="Yes"/>
+  <Project Name="FirstProject" Path="FirstProject/FirstProject.project" Active="No"/>
+  <Project Name="Section4Challenge" Path="Section4Challenge/Section4Challenge.project" Active="Yes"/>
+  <VirtualDirectory Name="Section 6">
+    <Project Name="Section6Project" Path="Section6Project/Section6Project.project"/>
+  </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="Project1" ConfigName="Debug"/>
       <Project Name="Project2" ConfigName="Debug"/>
       <Project Name="FirstProject" ConfigName="Debug"/>
+      <Project Name="Section4Challenge" ConfigName="Debug"/>
+      <Project Name="Section6Project" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="Project1" ConfigName="Release"/>
       <Project Name="Project2" ConfigName="Release"/>
       <Project Name="FirstProject" ConfigName="Release"/>
+      <Project Name="Section4Challenge" ConfigName="Release"/>
+      <Project Name="Section6Project" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
